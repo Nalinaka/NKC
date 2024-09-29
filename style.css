@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+ 
+ 
+*  {
+  /* color: black; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background: #f1f1f1;
+}
+.wrapper {
+  max-width: 1080px;
+  margin: 50px auto;
+  padding: 0 20px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    transition: all 300ms ease; 
+}
+
+/* HEADINGS  */
+
+h1, h2, h3, h4 {
+font-family: "stystem-ui";
+font-size: 36px;
+font-weight: 700;
+flex-direction: column;
+flex-wrap: wrap;
+align-content: left;
+margin-left: 0px;
+color: #98A8F8;
+
+}
+
+span {
+    color: #98A8F8;
+    line-height: 1.25;
+    font-weight: 700;
+}
+
+
+/* 
+
+NAV
+
+*/
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 120px 120px;
+    height: 100px;
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+
+
+
+
+/* 
+
+INTRO
+
+*/
+
+.femaleimg {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
